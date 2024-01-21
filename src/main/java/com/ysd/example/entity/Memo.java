@@ -27,7 +27,7 @@ public class Memo {
     @Id //<- PK에 해당하는 특정 필드를 @Id로 지정해야함. (필수. 2 of 2)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long mno;
-    @Column(length = 200 , nullable = false)
+    @Column(length = 100 , nullable = false)
     private String memoText;
 
 }
