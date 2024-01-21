@@ -1,16 +1,13 @@
 package com.ysd.example.repository;
 
 import com.ysd.example.entity.Memo;
-import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.beans.Transient;
 import java.util.Optional;
 import java.util.stream.IntStream;
 
-import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 class MemoRepositoryTest {
 
